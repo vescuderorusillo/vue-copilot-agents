@@ -1,0 +1,38 @@
+{
+  "name": "vue-composition-project",
+  "version": "1.0.0",
+  "description": "Vue.js project using Composition API with Git automation support",
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "eslint --ext .js,.vue,.ts src",
+    "lint:fix": "eslint --ext .js,.vue,.ts src --fix",
+    "test": "vitest run",
+    "build": "vue-tsc --noEmit && vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.19",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "@vue/test-utils": "^2.4.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.21.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vitest": "^1.3.1",
+    "vue-tsc": "^1.8.27"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
