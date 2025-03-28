@@ -32,7 +32,7 @@
 
 ## Testing
 - Write unit tests for composables and components
-- Use Vue Test Utils for component testing
+- Use Vue Testing Library for component testing
 - Follow the AAA pattern (Arrange, Act, Assert) in tests
 
 ## Vue.js Best Practices
