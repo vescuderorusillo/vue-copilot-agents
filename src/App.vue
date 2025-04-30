@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+import UserForm from './components/user-form.vue'
 
 const title = ref('Hola Mundo con Vue 3!')
 </script>
@@ -19,6 +20,7 @@ const title = ref('Hola Mundo con Vue 3!')
     </header>
     <main>
       <HelloWorld />
+      <UserForm />
     </main>
   </div>
 </template>
